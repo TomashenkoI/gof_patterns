@@ -1,7 +1,5 @@
 package structural.composite.impl;
 
-import structural.composite.BaseUnit;
-
 public class MeleeUnit extends BaseUnit {
 
     public MeleeUnit(int posX, int posY) {

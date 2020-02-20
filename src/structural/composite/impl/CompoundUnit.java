@@ -1,6 +1,5 @@
 package structural.composite.impl;
 
-import structural.composite.BaseUnit;
 import structural.composite.Unit;
 
 import java.util.List;

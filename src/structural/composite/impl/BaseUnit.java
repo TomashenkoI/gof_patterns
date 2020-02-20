@@ -1,4 +1,6 @@
-package structural.composite;
+package structural.composite.impl;
+
+import structural.composite.Unit;
 
 public abstract class BaseUnit implements Unit {
 

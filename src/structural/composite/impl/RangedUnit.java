@@ -1,7 +1,5 @@
 package structural.composite.impl;
 
-import structural.composite.BaseUnit;
-
 public class RangedUnit extends BaseUnit {
 
     public RangedUnit(int posX, int posY) {
