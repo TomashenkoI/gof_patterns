@@ -1,13 +1,9 @@
 package structural.facade.user.service;
 
-import structural.facade.user.repository.UserRepository;
+public interface UserService {
 
-public class UserService {
+    boolean checkIsLoginAvailable(String login);
 
-    private UserRepository userRepository;
-
-    boolean checkIsLoginAvailable(String login) {
-        return userRepository.checkIsLoginAvailable(login);
-    }
+    void saveUserCredentials(String login, String encode);
 
 }
